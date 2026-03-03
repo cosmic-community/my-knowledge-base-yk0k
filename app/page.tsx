@@ -111,31 +111,31 @@ export default async function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link
             href="/faqs"
-            className="group relative bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300"
+            className="group relative bg-gradient-to-br from-surface-50 to-surface-100 border border-surface-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300"
           >
             <span className="text-4xl mb-4 block">❓</span>
-            <h3 className="text-xl font-bold text-surface-900 mb-2 group-hover:text-amber-700 transition-colors">
+            <h3 className="text-xl font-bold text-surface-900 mb-2 group-hover:text-brand-700 transition-colors">
               Frequently Asked Questions
             </h3>
             <p className="text-surface-600 leading-relaxed">
               Find quick answers to common questions about our processes, tools, and policies.
             </p>
-            <span className="inline-block mt-4 text-sm font-medium text-amber-600 group-hover:text-amber-700">
+            <span className="inline-block mt-4 text-sm font-medium text-brand-600 group-hover:text-brand-700">
               Browse FAQs →
             </span>
           </Link>
           <Link
             href="/glossary"
-            className="group relative bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300"
+            className="group relative bg-gradient-to-br from-surface-50 to-surface-100 border border-surface-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300"
           >
             <span className="text-4xl mb-4 block">📝</span>
-            <h3 className="text-xl font-bold text-surface-900 mb-2 group-hover:text-emerald-700 transition-colors">
+            <h3 className="text-xl font-bold text-surface-900 mb-2 group-hover:text-brand-700 transition-colors">
               Glossary of Terms
             </h3>
             <p className="text-surface-600 leading-relaxed">
               Look up definitions for key business terms, acronyms, and jargon used across the team.
             </p>
-            <span className="inline-block mt-4 text-sm font-medium text-emerald-600 group-hover:text-emerald-700">
+            <span className="inline-block mt-4 text-sm font-medium text-brand-600 group-hover:text-brand-700">
               Browse Glossary →
             </span>
           </Link>
